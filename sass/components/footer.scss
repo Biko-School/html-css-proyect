@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: var(--size-base) var(--size-large) var(--size-medium);
+
+  border-top: 1px solid var(--dark-grey);
+
+  color: var(--middle-green);
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+}
+
+.footer__menu__item {
+  &:not(:last-child) {
+    margin-right: var(--size-mini);
+  }
+}
+
+.footer__icon {
+  width: 25px;
+  height: 25px;
+}

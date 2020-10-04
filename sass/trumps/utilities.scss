@@ -1,0 +1,33 @@
+/* margins*/
+
+.u-margin-bottom {
+  margin-bottom: var(--size-base); /* 24px*/
+}
+
+.u-margin-bottom--small {
+  margin-bottom: var(--size-small); /* 12px*/
+}
+.u-margin-bottom--mini {
+  margin-bottom: var(--size-mini); /* 16px*/
+}
+
+.u-margin-bottom--medium {
+  margin-bottom: var(--size-medium); /* 32px*/
+}
+
+.u-margin-bottom--large {
+  margin-bottom: var(--size-large); /* 48px*/
+}
+
+/*alignment*/
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+.u-text-justify {
+  text-align: justify;
+}
