@@ -15,12 +15,13 @@ p {
 }
 
 a {
+  color: var(--dark-gray);
   &:hover {
     font-weight: 700;
   }
-}
 
-&:visited,
-&:active {
-  color: var(--middle-green);
+  &:visited,
+  &:active {
+    color: var(--middle-green);
+  }
 }

@@ -1,9 +1,11 @@
 .card {
-  display: inline-flex;
+  display: flex;
 
   padding: var(--size-base);
 
-  border: 1px solid var(--dark-grey);
+  max-width: 400px;
+
+  border: 1px solid var(--middle-green);
   border-radius: 10px;
 }
 
@@ -11,21 +13,22 @@
   background-color: var(--superlight-green);
   border: 1px solid var(--dark-green);
 }
-.card_aside {
+
+.card__aside {
   position: relative;
 }
 
 .card__img {
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 10rem;
+  height: 10rem;
 
   margin-right: var(--size-base);
 }
 
 .card__tag {
   position: absolute;
-  top: var(--size-base);
-  left: var(--size-base);
+  top: 0;
+  left: 0;
 
   padding: var(--size-tiny);
 
@@ -73,4 +76,6 @@
   justify-self: flex-end;
 
   color: var(--middle-green);
+
+  margin-top: auto;
 }
