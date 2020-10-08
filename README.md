@@ -7,7 +7,7 @@ Ejercicio HMTL y CSS.
 * `npm start`: transpila el sass del proyecto y genera el css
 * `npm run start`: transpila el sass del proyecto y genera el css
 
-## Como ver la página 
+## Cómo ver la página 
 
 ### Opción 1
 
