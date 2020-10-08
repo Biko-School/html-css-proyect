@@ -5,7 +5,7 @@ Ejercicio HMTL y CSS.
 
 * `npm install`: instala dependencias del proyecto
 * `npm start`: transpila el sass del proyecto y genera el css
-* `npm run start`: transpila el sass del proyecto y genera el css
+* `npm run watch`: transpila el sass del proyecto y genera el css
 
 ## Cómo ver la página 
 
